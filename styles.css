@@ -123,3 +123,47 @@ button.Login:hover {
     padding: 20px 0;              /* Space above and below */
     margin-top: 40px;             /* Space from main content */
 }
+
+/* PRODUCT DETAIL PAGE  */
+.product-container {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+  }
+
+  .product-image {
+    flex: 1 1 300px;
+    max-width: 400px;
+  }
+
+  .product-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: right
+    
+  }
+
+  .product-description {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .product-tracklist {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
