@@ -305,3 +305,22 @@ button.Login:hover {
         vertical-align: top;
         border: none;
     }
+
+/* Account Login */
+    /* Center container */
+.center-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* White form card */
+.form-card {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
